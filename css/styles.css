@@ -1,7 +1,31 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+/* Reset Syles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+/* Common Styles */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Body */
@@ -17,15 +41,9 @@ body {
   background-color: #ffffff;
 }
 
-/* Common files*/
-li {
-  list-style-type: none;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-
 /* Logo*/
 .logo {
+  width: 44px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -36,6 +54,7 @@ li {
   text-decoration: none;
 }
 .logo-dark {
+  width: 71px;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -46,6 +65,15 @@ li {
 }
 
 /* Nav */
+.nav-studio {
+  width: 48px;
+}
+.nav-portfolio {
+  width: 66px;
+}
+.nav-contacts {
+  width: 67px;
+}
 .nav-link {
   color: #2e2f42;
   font-style: normal;
@@ -63,6 +91,12 @@ li {
 .address {
   font-style: normal;
 }
+.contact-mail {
+  width: 153px;
+}
+.contact-tel {
+  width: 151px;
+}
 .contact-link {
   color: #434455;
   font-style: normal;
@@ -76,18 +110,23 @@ li {
 }
 
 /* Button */
-.section {
+.hero-section {
   background-color: #2e2f42;
 }
 .sec-title {
+  width: 496px;
   color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 49px;
 }
 .button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
@@ -102,6 +141,7 @@ li {
 
 /* Section Advantages */
 .adv .title {
+  width: 264px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -109,6 +149,7 @@ li {
   letter-spacing: 0.02em;
 }
 .text {
+  width: 264px;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -119,6 +160,7 @@ li {
   background-color: #f4f4fd;
 }
 .team-title {
+  width: 162px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -143,6 +185,7 @@ li {
 }
 /* Section Our Portfolio */
 .op-title {
+  width: 218px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -167,6 +210,7 @@ li {
   background-color: #2e2f42;
 }
 .f-logo {
+  width: 44px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -177,6 +221,7 @@ li {
   text-decoration: none;
 }
 .logo-light {
+  width: 71px;
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -186,6 +231,7 @@ li {
   text-transform: uppercase;
 }
 .f-text {
+  width: 264px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
