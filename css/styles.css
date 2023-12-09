@@ -67,7 +67,7 @@ footer {
 }
 .list-title {
   display: flex;
-  padding-top: 32px;
+
   padding-bottom: 8px;
   justify-content: center;
 }
@@ -234,6 +234,7 @@ body {
   background-color: #f4f4fd;
 }
 .team-title {
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -247,9 +248,13 @@ body {
   flex-wrap: wrap;
   gap: 24px;
 }
+.grid-name {
+  padding: 32px 0;
+}
 .li-img {
-  background-color: #ffffff;
   width: 264px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 /* Section Our Portfolio */
 .op-title {
