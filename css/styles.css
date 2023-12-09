@@ -65,15 +65,17 @@ footer {
 .op-title {
   padding-bottom: 72px;
 }
+.grid-name {
+  padding: 32px 0;
+}
 .list-title {
   display: flex;
-
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  text-align: center;
   justify-content: center;
 }
 .list-text {
   display: flex;
-  padding-bottom: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   justify-content: center;
@@ -220,7 +222,6 @@ body {
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
 }
 .text {
   width: 264px;
