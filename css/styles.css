@@ -23,12 +23,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-section,
-header,
-footer {
-  outline: 2px solid red;
-  outline-offset: -2px;
-}
 .section {
   padding: 120px 0;
 }
@@ -61,12 +55,13 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-title,
-.op-title {
-  padding-bottom: 72px;
-}
 .grid-name {
   padding: 32px 0;
+}
+.op-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .list-title {
   display: flex;
@@ -76,6 +71,7 @@ footer {
 }
 .list-text {
   display: flex;
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   justify-content: center;
@@ -249,9 +245,6 @@ body {
   flex-wrap: wrap;
   gap: 24px;
 }
-.grid-name {
-  padding: 32px 0;
-}
 .li-img {
   width: 264px;
   border-radius: 0px 0px 4px 4px;
@@ -259,6 +252,7 @@ body {
 }
 /* Section Our Portfolio */
 .op-title {
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -270,7 +264,8 @@ body {
 .op-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   background-color: #ffffff;
 }
 
